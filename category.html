@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - VICKKKY'S RECOMMENDATION🔥</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensured correct CSS link -->
+    <script>
+        function toggleMovies(category) {
+            var movies = document.getElementById(category);
+            if (movies.style.display === "none" || movies.style.display === "") {
+                movies.style.display = "block";
+            } else {
+                movies.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="category.html">CATEGORY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <h2>Movie Categories</h2>
+    <p>Select a category to explore recommended movies and series:</p>
+
+    <div class="categories">
+        <button onclick="toggleMovies('action')">🔥 Action Movies</button>
+        <div id="action" class="movies" style="display: none;">
+            <div class="movie">
+                <h3>Mad Max: Fury Road</h3>
+                <p>A high-octane post-apocalyptic action film.</p>
+                <a href="https://www.jiocinema.com/movies/mad-max-fury-road/3756711" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>John Wick</h3>
+                <p>A legendary assassin seeks revenge.</p>
+                <a href="https://tv.apple.com/in/movie/john-wick/umc.cmc.7bztxfm8c2y0g5888tox6ed3u?playableId=tvs.sbd.9001%3A1618707748" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Better Call Saul</h3>
+                <p>Watched Breaking Bad? Continue with this.</p>
+                <a href="https://www.netflix.com/title/80021955" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Gadar 2</h3>
+                <p>Tara Singh</p>
+                <a href="https://www.zee5.com/movies/details/gadar-2/0-0-1z5437988" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Radhe: Your Most Wanted Bhai</h3>
+                <p>Bhai protects Mumbai with his jalwa🔥</p>
+                <a href="https://www.zee5.com/movies/details/gadar-2/0-0-1z5437988" target="_blank">Visit</a>
+            </div>
+        </div>
+
+        <button onclick="toggleMovies('sci-fi')">🚀 Sci-Fi Movies</button>
+        <div id="sci-fi" class="movies" style="display: none;">
+            <div class="movie">
+                <h3>Interstellar</h3>
+                <p>A mind-blowing sci-fi adventure through space and time.</p>
+                <a href="https://www.netflix.com/title/70305903" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Blade Runner 2049</h3>
+                <p>A stunning neo-noir sci-fi thriller.</p>
+                <a href="https://www.sonyliv.com/movies/blade-runner-2049-1090426687" target="_blank">Visit</a>
+            </div>
+        </div>
+
+        <button onclick="toggleMovies('thriller')">🎭 Thriller Movies</button>
+        <div id="thriller" class="movies" style="display: none;">
+            <div class="movie">
+                <h3>Inception</h3>
+                <p>A masterpiece about dreams within dreams.</p>
+                <a href="https://www.netflix.com/title/70131314" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Gone Girl</h3>
+                <p>A gripping psychological thriller.</p>
+                <a href="https://www.netflix.com/title/70305899" target="_blank">Visit</a>
+            </div>
+        </div>
+
+        <button onclick="toggleMovies('indian-series')">🇮🇳 Indian Series</button>
+        <div id="indian-series" class="movies" style="display: none;">
+            <div class="movie">
+                <h3>Scam 1992</h3>
+                <p>A gripping tale of Harshad Mehta’s stock market rise and fall.</p>
+                <a href="https://www.sonyliv.com/shows/scam-1992-the-harshad-mehta-story-1700000292" target="_blank">Visit</a>
+            </div>
+            <div class="movie">
+                <h3>Sacred Games</h3>
+                <p>A thrilling crime drama based on Vikram Chandra’s novel.</p>
+                <a href="https://www.netflix.com/in/title/80115328" target="_blank">Visit</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 VICKKKY'S RECOMMENDATION | All Rights Reserved</p>
+        <p>Follow me on 
+            <a href="https://www.instagram.com/vickyiscooked/?igsh=YzljYTk1ODg3Zg%3D%3D#" target="_blank">Instagram</a> | 
+            <a href="https://x.com/vickkky404" target="_blank">X</a>
+        </p>
+    </footer>
+</body>
+</html>
